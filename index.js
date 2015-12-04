@@ -10,7 +10,6 @@ module.exports = {
     'prefer-spread': 2,
     'object-shorthand': [2, 'methods'],
     'no-lonely-if': 2,
-    'prefer-arrow-callback': 2,
-    'space-before-function-paren': [2, 'never']
+    'prefer-arrow-callback': 2
   }
 };
