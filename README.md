@@ -4,7 +4,7 @@ ESLint config for Loopwerk, based on AirBnb's style but adding some extra rules 
 ## Install
 
 ```
-npm install —save-dev eslint eslint-config-loopwerk
+npm install —save-dev eslint eslint-config-airbnb eslint-config-loopwerk
 ```
 
 ## Usage

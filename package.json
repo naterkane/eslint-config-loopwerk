@@ -23,10 +23,8 @@
     "url": "https://github.com/loopwerk/eslint-config-loopwerk/issues"
   },
   "homepage": "https://github.com/loopwerk/eslint-config-loopwerk",
-  "devDependencies": {
-    "eslint-config-airbnb": "^2.0.0"
-  },
   "peerDependencies": {
+    "eslint-config-airbnb": "^2.0.0",
     "eslint": "^1.10.0"
   }
 }
