@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-loopwerk",
+  "version": "1.0.0",
+  "description": "ESLint config for Loopwerk, based on AirBnb's style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loopwerk/eslint-config-loopwerk.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig",
+    "airbnb",
+    "loopwerk"
+  ],
+  "author": "Kevin Renskers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loopwerk/eslint-config-loopwerk/issues"
+  },
+  "homepage": "https://github.com/loopwerk/eslint-config-loopwerk",
+  "devDependencies": {
+    "eslint-config-airbnb": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^1.10.0"
+  }
+}
