@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-loopwerk",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "ESLint config for Loopwerk, based on AirBnb's style",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "url": "https://github.com/loopwerk/eslint-config-loopwerk/issues"
   },
   "homepage": "https://github.com/loopwerk/eslint-config-loopwerk",
-  "dependencies": {
-    "eslint-config-airbnb": "^6.1.0"
+  "peerDependencies": {
+    "eslint": "^2.13.1"
   }
 }
