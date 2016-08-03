@@ -1,5 +1,4 @@
 module.exports = {
-  plugins: ['angular'],
   env: {
     browser: true,
     commonjs: true,
