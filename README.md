@@ -13,6 +13,6 @@ In your project’s .eslintrc.*, use the extends feature:
 
 ```
 {
-  “extends”: “eslint-config-loopwerk”
+  "extends": "eslint-config-loopwerk"
 }
 ```
