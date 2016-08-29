@@ -146,8 +146,8 @@ module.exports = {
     // disallow use of multiline strings
     'no-multi-str': 2,
 
-    // disallow reassignments of native objects
-    'no-native-reassign': 2,
+    // disallow assignment to native objects or read-only global variables
+    'no-global-assign': 2,
 
     // disallow use of new operator when not part of the assignment or comparison
     'no-new': 2,
@@ -301,8 +301,8 @@ module.exports = {
     // disallow irregular whitespace outside of strings and comments
     'no-irregular-whitespace': 2,
 
-    // disallow negation of the left operand of an in expression
-    'no-negated-in-lhs': 2,
+    // disallow negating the left operand of relational operators
+    'no-unsafe-negation': 2,
 
     // disallow the use of object properties of the global object (Math and JSON) as functions
     'no-obj-calls': 2,
@@ -664,7 +664,7 @@ module.exports = {
     ],
 
     // disallow space between function identifier and application
-    'no-spaced-func': 2,
+    'func-call-spacing': [2, 'never'],
 
     // disallow the use of ternary operators
     'no-ternary': 0,
