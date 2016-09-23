@@ -20,4 +20,9 @@ module.exports = {
     'eslint-config-airbnb-base/rules/variables',
     'eslint-config-airbnb-base/rules/es6',
   ],
+  rules: {
+    'no-underscore-dangle': 'off',
+    'arrow-parens': 'always',
+    'no-console': 'off',
+  }
 };
