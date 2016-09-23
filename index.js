@@ -22,7 +22,7 @@ module.exports = {
   ],
   rules: {
     'no-underscore-dangle': 'off',
-    'arrow-parens': 'always',
+    'arrow-parens': ['error', 'always'],
     'no-console': 'off',
   }
 };

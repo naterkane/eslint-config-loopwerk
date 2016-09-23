@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-loopwerk",
-  "version": "4.3.0-beta2",
+  "version": "4.3.0-beta3",
   "description": "ESLint config for Loopwerk, based on AirBnb's style",
   "main": "index.js",
   "scripts": {
