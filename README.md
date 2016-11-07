@@ -1,5 +1,5 @@
 # eslint-config-loopwerk
-ESLint config for Loopwerk, based on AirBnb's style but adding some extra rules and removing some silly ones.
+ESLint config for Loopwerk. Based on AirBnb's style but without React or ES6 modules and allows `console.log`.
 
 ## Install
 

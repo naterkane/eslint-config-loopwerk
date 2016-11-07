@@ -4,7 +4,6 @@ module.exports = {
     commonjs: true,
     es6: true,
     node: true,
-    mocha: true,
   },
   parserOptions: {
     ecmaVersion: 7,
@@ -23,5 +22,11 @@ module.exports = {
   rules: {
     'no-underscore-dangle': 'off',
     'no-console': 'off',
+    'comma-dangle': ['error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+    }],
   }
 };
